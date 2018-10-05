@@ -1,0 +1,7 @@
+CallerType,CallerTypeKey
+Store,0
+City tech,1
+Other,2
+Contractor,3
+Not Selected,4
+Site,5

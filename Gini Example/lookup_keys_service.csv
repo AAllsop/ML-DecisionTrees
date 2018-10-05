@@ -1,0 +1,369 @@
+Service,ServiceKey
+EAS Pedestal,0
+Electrical - Small Electrical Works,1
+Building - Other,2
+Lane Controllers,3
+Lighting - Emergency/Exit,4
+Bale Press,5
+Signs - Illuminated,6
+zCircuit failed fault loop test,7
+zNo Mechanical protection to-,8
+Lighting - Internal,9
+Insect Zapper,10
+Power - Power Point,11
+Oven - Chicken Steam,12
+Public Address System,13
+Chicken Oven - Trolley ,14
+CCTV DVR,15
+Chicken - Warmer,16
+Wrapper - No Scale,17
+Slicer - Semi-Automatic,18
+Door - Automatic Sliding,19
+CCTV Camera,20
+Cash Transfer System,21
+Conveyor System,22
+Hot Water System,23
+Slicer - Automatic,24
+Lighting - External Building,25
+Oven - Combination - Electric,26
+Oven - Par Bake,27
+Electrical - Lighting Control,28
+Conveyor Belt - Check Out,29
+Door - Roller Shutter - Electric,30
+Donut Machine,31
+Lift - Goods Lift - Electric,32
+Power - Power Factor Correction Unit,33
+Compactor,34
+Lighting - Car Park,35
+Retarder Prover,36
+Lift - Goods Lift - Hydraulic,37
+Power - Switchboard,38
+Pallet Jack - Electric,39
+Slicer - Bread,40
+Power - Outage/Cut,41
+Water Meter,42
+Dock Leveller,43
+Generator,44
+Trolley - Store Stock,45
+Divider,46
+Mixer,47
+Alarm - Door Sensor \ PIR,48
+Oven - Rack Oven - Electric,49
+Water Chiller,50
+Hot Water Urn,51
+Oven - Multi Deck - Electric,52
+Pallet Jack - Manual,53
+Moulder,54
+Television,55
+Fork Lift - Walkie Stacker,56
+Lift - Hoist,57
+Door - Automatic Rapid Roller,58
+Hotplate,59
+Lighting - Cool Room,60
+Oven - Convection - Electric,61
+Gerni (Pressure Washer),62
+(Unknown Catering),63
+Case - Multi Deck,64
+Case - Serve Over,65
+Alarm - Key Pad Fault,66
+Meat - Bandsaw,67
+Drinking Fountain,68
+Voltage optimisation unit,69
+Flat Bread Machine,70
+Bakery Trolley,71
+zBurnt out contactor & associated cables,72
+Door - Entrance Roller Shutter - Electric,73
+Soap Dispenser,74
+Bag Blower/Sealer,75
+Drinks Dispenser - Hot,76
+Case - Coffin Freezer,77
+Door - Entrance Roller Shutter - Manual,78
+Trolley - Red Rover,79
+Microwave - Catering,80
+Slicer - Manual,81
+Roving Microphone,82
+Ceiling,83
+Ice Bunk - Plumbing,84
+Lift - Scissor Lift - Built In,85
+Door - Single Leaf Door,86
+Grease - Trap,87
+Register Gate \ Chain,88
+Alarm - Panel Tamper Alarm,89
+Queue Numbering System,90
+Ladder - Portable and Moveable,91
+Line Alarm System,92
+CCTV Monitor,93
+Expense - Cardboard,94
+Blocked Toilet,95
+Air Conditioning,96
+Floor - Carpet,97
+Alarm - Fire Alarm System,98
+Leaking Tap,99
+Expense - Cleaning,100
+Verified Book/QR Code Plate,101
+Floor - Vinyl floor,102
+Trolley - Collection,103
+Expense - Pest Control Rodent,104
+Cool Room - Frozen,105
+Blocked Drain,106
+Refrigeration Alarm Unknown,107
+Plant Room - Refrigeration,108
+Case - Lighting,109
+Leaking Pipe,110
+Cool Room - Refrigerated,111
+Cleaning Scrubber,112
+Strip Curtain,113
+Expense - Pest Control Fly\Insect,114
+Refrigeration Alarm Panel,115
+Case - Full Glass Door Freezer,116
+Drawers (not register),117
+Refrigeration - Survey,118
+Cool Room - Evaporator,119
+Escalation - Armour Car Service,120
+Change Master (TANK),121
+Expense - Waste (General),122
+Fire - Services Survey,123
+Door - Fire Door,124
+Ice Bunk - Structural,125
+Refrigeration - HACCP Report,126
+Case - Domestic Fridge,127
+RHVAC Initiative,128
+Expense – Waste Skip Bin,129
+Alarm - Network Alarm,130
+Trolley - Shopping,131
+Walls - Internal,132
+Ice Machine,133
+Painting,134
+Drain - Grates,135
+Floor - Concrete,136
+Expense - Cardboard Additional Service,137
+Shelving - Fresh Produce Unit,138
+Fire - Extinguisher,139
+Graffiti Removal,140
+Racking,141
+Roof - Leak,142
+Smoke Detector,143
+Case - Self Contained,144
+Expense - Grease Trap Emptying,145
+Car Park Surface - Damage,146
+Refrigeration Night Blinds,147
+Preparation Room Evaporator - Refrigeration,148
+Glazing,149
+Escalation – Assisted Checkout/BNR Service,150
+Scale,151
+Door - Double Leaf Door,152
+Exhaust Hood,153
+Grounds Maintenance,154
+Joinery,155
+Signs - Building Signs,156
+Bag Holder,157
+Sprinkler - System,158
+Case - Stand Alone Freezer,159
+Condenser - Refrigeration,160
+Car Park Surface - Painting,161
+Escalation - Pest Control,162
+Escalation - Waste (Organic),163
+Drinks Dispenser - Cold,164
+Floor - Ceramic tile,165
+Expense - Waste (Organic),166
+Compressor Rack - LT,167
+Floor - Epoxy,168
+Barrier Protective Rail,169
+Bureau Lighting,170
+Escalation - Cardboard,171
+Case - Domestic Freezer,172
+Shelving,173
+Containers - Refrigerated Hired,174
+Cool Room Racking,175
+Case - Low Height,176
+Fire - Hose Reel,177
+Refrigeration PC,178
+Escalation - Waste (General),179
+Keys & Locks,180
+Cleaning Buffer,181
+Pest Control - Proofing,182
+Power - RCD,183
+Toilet Seat,184
+Compressor - Refrigeration,185
+Fire - Hydrant,186
+Switchboard - Refrigeration,187
+Sprinkler - Pump,188
+(Unknown Electrical),189
+Compressor - HVAC,190
+Trolley Bay,191
+Trolley - Online,192
+Fire - Blanket,193
+Expense - Hygiene ,194
+Scale/Label Printer,195
+Boiler,196
+Blinds,197
+Labeller,198
+Compressor Rack - MT,199
+Safe,200
+Door - Roller Shutter - Manual,201
+Compressor Rack - HT,202
+Oven - Chicken Rotisserie,203
+Ice Disposal Unit,204
+Switchboard - Refrigeration/AC,205
+Condenser - HVAC,206
+Cooling Tower,207
+Leak Testing,208
+Bollard,209
+Escalation - Plastic,210
+(Unknown Building),211
+Escalator,212
+Lift - Passenger Lift - Electric,213
+Floor - Wood,214
+Roll Cage,215
+Air Conditioning - Split System,216
+Expense - Plastic,217
+Boom Gate,218
+Fork Lift - Truck,219
+Smart Kiosk I Pad,220
+Signs - Non Illuminated,221
+Escalation – Waste Skip Bin,222
+Gas - Reported Gas Leak,223
+Case - Drinks,224
+Refrigeration - Controller Offline,225
+Expense - Pest Control Bird,226
+Containers - Frozen Hired,227
+Trolley - Tug,228
+Hand Dryer - Electric Hand Dryer,229
+CCTV UPS,230
+Compactor Bin,231
+Mobile Phone Displays,232
+Sump Pump,233
+Expense – Cardboard Skip Bin,234
+Locker - Team Member,235
+Audio Visual Equipment,236
+Fence,237
+Bulkhead,238
+Expense - Pest Control Proofing,239
+Escalation - Cleaning,240
+Service Desk/Kiosk,241
+Escalation - Cardboard Skip Bin,242
+(Unknown Refrigeration),243
+Cool Room - Bloom Box,244
+Fork Lift - Truck Hire,245
+Bin Lifter,246
+Walls - External,247
+Pressure Vessel,248
+Cigarette Vending Unit,249
+Air Curtain,250
+Conveyor Belt - Back of House,251
+Case - Display,252
+Lighting - Canopy Lights,253
+Lift - Scissor Lift - Mobile,254
+Generator - Hired,255
+UPS - Supermarket,256
+Energy Event - Refr. & HVAC,257
+Meat - Rail,258
+Mooing Cow,259
+Expense - Armoured Car Service,260
+Expense - Pest Control Other,261
+Fondant Machine,262
+Escalation -Armour Car Service-General Issue/Query,263
+Door - Roller Shutter - Cigarette,264
+Escalation – Change Master Service,265
+Cooling Tower - Refrigeration,266
+Break Glass Unit,267
+Shelving - Gondola,268
+Case - Roll In Refrigerated,269
+CCTV Video Recorder,270
+Cleaning Vacuum,271
+Case - Half Glass Door + Coffin Freezer,272
+Incident - Security Guard Request,273
+Asset Collection - Electrical,274
+Travelator,275
+Lift - Passenger Lift - Hydraulic,276
+Microwave - Bakery,277
+Bain Marie - Bakery,278
+Assisted Checkout Film Wrap,279
+Preparation Room - Refrigeration,280
+Air Conditioning - Hired,281
+HACCP Report,282
+Expense - Safe Bunker Service,283
+Grease - Guardian,284
+Cream Machine,285
+Uniform Hooks,286
+(Unknown Bakery),287
+Knife Sharpener,288
+Security Alarm Printer,289
+Alarm - Power or Battery Replacement,290
+Blender,291
+Escalation - Cardboard Missed Service,292
+Trolley - Electric,293
+Floor - Mat,294
+ZEscalation - Uniform laundry Service,295
+Projector,296
+Can Opener,297
+Trolley - Mart Cart,298
+Scale - Live Rail,299
+VCR/DVD,300
+ZExpense - Uniform Laundry Service,301
+Bins - Ingredients,302
+Expense - Trolley Street Run,303
+Cheese Grater,304
+Sandwich Press,305
+Expense - Fat and Bone,306
+Toaster,307
+Bureau Refrigeration,308
+zRentokil Audit,309
+Battery Charger - Forklift,310
+zBreaker Failed RCD Test,311
+Solar,312
+CCTV Multiplexer,313
+Meat - Mincer,314
+Vacuum Packer,315
+General Plumbing,316
+Pie - Oven,317
+Bain Marie - Catering,318
+Alarm - Security Alarm System,319
+Dishwasher,320
+Survey - Minor Building Works,321
+Switchboard - Survey,322
+Fryer - Deep Fat Fryer - Electric,323
+Oven - Pizza,324
+CCTV Monitor - Office,325
+Smoke Vents Roof,326
+Pie - Warmer,327
+UPS - Generator,328
+Oven - Chicken Rotisserie - Gas,329
+Energy Event - RST,330
+(Unknown Mechanical),331
+CD Player,332
+Turntable,333
+Floater,334
+Asset Collection - Refrigeration,335
+Escalation - Grease Trap Emptying,336
+Raw Sewerage Leak,337
+Water Softener,338
+Urinal Controls,339
+Coles Radio,340
+Awning,341
+Super Chiller,342
+(Unknown Building Services),343
+Smoke Dampers,344
+AC Supplementary Units,345
+VPO - switch,346
+Leak Detector,347
+Fire - Shutter,348
+(Unknown Fire),349
+Grill/Char Grill,350
+Oven - Range with Open burners,351
+Air Fryer,352
+Escalation - Trolley push service,353
+Expense - Trolley Push Service,354
+Expense - Re-new floorcare program,355
+Register Bench,356
+Incident - Injury (Not FM related),357
+Escalation – Safe Bunker Service,358
+Expense – Assisted Checkout/BNR Service,359
+Expense - Armour Car Service - General Issue/Query,360
+Expense - Change Master Service,361
+Note and Coin Counting Machine,362
+Escalation - Hygiene (Sanitary),363
+Lessor Query,364
+Escalation - Mail Bags,365
+Expense - Mail Bags,366
+Expense - Register Rolls,367
