@@ -58,17 +58,17 @@ cols_pd["band"] = pd.qcut(cols_pd.index,100,labels=False,retbins=False)
 
 #split into train/test
 #split frame in x partitions
-fault_notes_stg = fault_notes_dz.copy().head(100000)
+fault_notes_stg = fault_notes_dz.copy().head(10000)
 
 cut_extent = 40
 fault_notes_stg["partition"] = pd.qcut(fault_notes_stg.index,cut_extent,labels=False,retbins=False)
 
 #cycle through y% partitions (training data)
-compiled_docs = None
+#compiled_docs = None
 end_rng = int(cut_extent*0.75) + 1
 partition_range = range(1,end_rng)
 for partition in partition_range:
-    partition = 1
+#    partition = 1
     fault_notes = fault_notes_stg[fault_notes_stg["partition"] == partition]
    
     #vectorize shingles
@@ -80,13 +80,10 @@ for partition in partition_range:
     shingle_frame .index = shingle_frame ["shingle_index"]
     shingle_frame  = shingle_frame.drop(columns=["shingles","shingle_index"])
     
-#    signatures_pd = pd.DataFrame(columns=["band","signature"])
-    
     hash_values_stack_all = None
     hash_calcs = range(1,11)
     for hash_calc in hash_calcs:
 #        hash_calc  =2 
-#        hash_calc = hash_calc +1
         hash_col_name = generate_hash_col_name(hash_calc)
         
         #get the modulo no. which is the max count of rows in each band
@@ -108,17 +105,14 @@ for partition in partition_range:
     hash_values_stack_all = hash_values_stack_all[hash_values_stack_all[hash_col_name] != 999999]
     hash_values_stack_all["signature"] = hash_values_stack_all.index.map(dict(zip(hash_values_stack_all.index,pd.Series(hash_values_stack_all.fillna('').values.tolist()).map(lambda x : '.'.join(map(str,x))))))
     
-    if compiled_docs is None:
-        compiled_docs = hash_values_stack_all.iloc[0:0]
-#        pd.DataFrame(columns=hash_values_stack_all.columns)
-    compiled_docs = compiled_docs.append(hash_values_stack_all,sort=True)
+    #Export doc hash signatures
+    hash_values_stack_all = pd.merge(hash_values_stack_all,fault_notes[["FaultID"]],left_on = hash_values_stack_all.index.get_level_values(1), right_index=True,how="inner")
+    hash_values_stack_all.to_csv("Data\LSH Outputs\doc_hash_signatures_" + str(partition) + ".csv",columns=["FaultID","signature"])
+    
+#Export shingles
+cols_pd.to_csv("Data\LSH Outputs\shingles.csv")
+    
 
-
-
-    
-    
-    
-    
     
     
     
